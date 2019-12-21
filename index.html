@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nollies Taco Joint</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.3.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://kit.fontawesome.com/c3c9035355.js"></script>
+</head>
+<body>
+    <div class="hero-header" id="hero-header"></div>
+    <nav class="navbar" id="navbar">
+            <div class="navbar-center">
+                <a class="navbar-brand">Nollies Taco Joint</a>
+                    <ul class="navbar-nav">
+                            <li><a class="navigation navactive" href="#hero-header">Welcome</a></li>
+                            <li><a class="navigation" href="#story">About</a></li>
+                            <li><a class="navigation" href="menu.html">Menu</a></li>
+                            <li><a class="navigation" href="#sectionid-header">Contact</a></li>
+                            <li><a class="navigation" href="https://www.theasys.io/viewer/cM2X9wQt1BHRd4X6PXGgg9iDYXqkdb/">Tour</a></li>
+                            <li><a class="navigation" href="shop.html">Shop</a></li>
+                        </ul>
+                <span class="nav-icon" onclick="openSideMenu();"><i class="fas fa-bars"></i>
+                </span>
+                
+            
+            
+            </div>
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSideMenu();">&times</a>
+                <a href="#hero-header">Welcome</a>
+                <a href="#story">About</a>
+                <a href="menu.html">Menu</a>
+                <a href="#sectionid-header">Contact</a>
+                <a href="https://www.theasys.io/viewer/cM2X9wQt1BHRd4X6PXGgg9iDYXqkdb/">Tour</a>
+                <a href="shop.html">Shop</a>
+            </div>
+        </nav>
+        <header class="hero" id="hero">
+                <div class="banner">
+                    <h1 class="banner-title">Nollie's Taco Joint </h1>
+                    <h2 class="banner-sub-title">"Best Tacos & Burritos At The Beach"</h2>
+                </div>
+        </header>
+ <section id="story" class="description_content">
+                <div class="text-content container">
+                    <div class="row">
+                    <div class="col-md-6">
+                        <h1>About us</h1>
+                        <div class="fa fa-cutlery fa-2x"></div>
+                        <p class="desc-text">Nollies is a place for simplicity. Good food, good beer, and good service. Simple is the name of the game, and we’re good at finding it in all the right places, even in your dining experience. We’re a small group from Carolina Beach, North Carolina who make simple food possible. Come join us and see what simplicity tastes like.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img-section">
+                           <img src="images/nolliestacos.jpg" width="250" height="220">
+                           <img src="images/nolliestacos2.jpg" width="250" height="220">
+                           <div class="img-section-space"></div>
+                           <img src="images/nolliestacos3.jpg" width="250" height="220">
+                           <img src="images/nolliestacos4.jpg" width="250" height="220">
+                       </div>
+                    </div>
+                  </div>
+                </div>
+            </section>
+ <section id="drinks" class="description_content">
+    <div class="hero-drinks">
+        <div class="banner">
+            <h1 class="banner-title-drinks">Enjoy Craft Beer!</h1>
+        </div>
+    </div>
+</section>
+<section id="drinks-square" class="description_content">
+<div class="text-content container">
+   <div class="row">
+      <div class="col-md-6">
+            <div class="img-section">
+                    <img src="images/craft-beer.jpg" width="250" height="220">
+                    <img src="images/beers.jpg" width="250" height="220">
+                    <div class="img-section-space"></div>
+                    <img src="images/HARVEST.jpg" width="250" height="220">
+                    <img src="images/why-beers.jpg" width="250" height="220">
+               </div>
+           
+       </div>
+       <div class="col-md-6">
+            <h1>Craft Beers</h1>
+            <p class="drink-text">Here at Nollies we're all about the love of beer. New and bold flavors enter our doors every week, and we can't help but show them off. While we enjoy the classics, we’re always passionate about discovering something new, so stop by and experience our craft at its best.</p>
+        </div>
+    </div>
+</div>
+</section>
+<div class="sectionid-header" id="sectionid-header"></div>
+<section class="sectionid-contact" id="sectionid-contact">
+            <article class="contact-info">
+                <h3 class="contact-info">Contact Email:</h3>
+                <h3 class="contact-info"><a href="mailto:eskaterat@gmail.com" class="email-info">eskaterat@gmail.com</a></h3>
+              
+            </article>
+            <article class="contact-info">
+                <h3 class="contact-info">Contact Phone:</h3>
+                <h3 class="contact-info"><a href="tel:4807099950" class="email-info" id="email-info">Call us at 910-707-0455</a></h3>
+              
+            </article>
+            <article class="contact-info">
+                <h3 class="contact-info">Contact Address:</h3>
+                <h3 class="contact-info" id="address">Nollies Taco Joint<br/>3 Pelican Ln, Carolina Beach, NC 28428</h3>
+              
+            </article>
+               
+</section>
+         
+<div id='map'></div>  
+
+<footer id="footer">
+        <ul class="social-icons">
+          <li class="color">
+                <a class="icons" href="http://www.facebook.com/MastryMedia" target="new"><i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="color">
+                <a class="icons" href="http://www.twitter.com" target="new"><i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="color">
+                <a class="icons" href="http://www.google.com" target="new"><i class="fab fa-google fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="color">
+                <a class="icons" href="http://www.youtube.com" target="new"><i class="fab fa-youtube fa-2x" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+           <div class="copyright">
+                <p>Copyright © 2019</p>
+            </div>
+     </footer>
+
+   
+ <script src="js/app.js"></script>   
+</body>
+</html>
