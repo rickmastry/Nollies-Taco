@@ -6,11 +6,11 @@
 }
 @font-face{
   font-family: "Western";
-  src: url('../fonts/gomarice_yatsurano_western.ttf') Format('truetype');
+  src: url('./fonts/gomarice_yatsurano_western.ttf') Format('truetype');
 }
 @font-face{
   font-family: "Turntablz";
-  src: url('../fonts/TURNBB__.TTF') Format('truetype');
+  src: url('./fonts/TURNBB__.TTF') Format('truetype');
 }
 
 /*
