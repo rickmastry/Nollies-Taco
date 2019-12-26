@@ -1,12 +1,4 @@
 
-function openSideMenu(){
-    document.getElementById('side-menu').style.width = '250px';
-   
-}
-function closeSideMenu(){
-   document.getElementById('side-menu').style.width = '0';
-   event.preventDefault();
-}
 
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiamFocmlrIiwiYSI6ImNrMDM3dGhzaDBjZ3gzaG54OTR2c3FsY3AifQ.heM_Q5Kt9MGtEP9r4-UEzg';
